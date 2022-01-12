@@ -17,7 +17,7 @@ function draw() {
   for (var y= 0; y< 600; y= y+random(40,60)){
   for (var x= 0; x< 600; x= x+random(50,100)){
       //ellipse(x,y,random(2,90), random(20,40);line (x,y, random(10,20)+x ,random(70,90)+y);
-        ellipse (x,y, random(70,80) ,random(70,80));
+        line (x, y);
   }
 }
    save("mySVG.svg"); // give file name
