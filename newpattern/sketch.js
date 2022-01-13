@@ -20,7 +20,7 @@ function draw() {
         line (x, y);
   }
 }
-   //save("mySVG.svg"); // give file name
-   //print("saved svg");
+   save("mySVG.svg"); // give file name
+   print("saved svg");
    noLoop(); // we just want to export once
 }
